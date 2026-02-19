@@ -1,20 +1,15 @@
 [versions]
 
-kotlin = "2.2.0"
-compose = "1.8.2"
-agp = "8.10.0"
-androidx-activityCompose = "1.10.1"
-androidx-uiTest = "1.8.1"
-storytale = "0.0.4-alpha01+dev18"
+kotlin = "2.3.0"
+compose = "1.10.1"
+agp = "8.13.2"
+androidx-activityCompose = "1.12.4"
+storytale = "0.0.4-alpha01+dev22"
 
 [libraries]
-
 androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
-androidx-uitest-testManifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "androidx-uiTest" }
-androidx-uitest-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "androidx-uiTest" }
 
 [plugins]
-
 multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 compose = { id = "org.jetbrains.compose", version.ref = "compose" }
